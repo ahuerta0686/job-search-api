@@ -1,0 +1,29 @@
+{
+  "name": "job-search-api",
+  "version": "0.0.1",
+  "description": "API for job searching application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "dnscache": "^1.0.1",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "json-api": "^2.15.7",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.6",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}
